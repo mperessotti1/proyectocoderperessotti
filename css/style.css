@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+/*----RESET---*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+}
+
+/*!---------HEADER----------*/
+.header {
+    background-color: #e0f7fa;
+    height: 140px;
+    overflow: hidden;
+}
+
+.logo {
+    float: left;
+}
+
+.logo img {
+    width: 180px;
+    height: 145px;
+    vertical-align: middle;
+}
+
+.navbar {
+    float: right;
+}
+
+.navbar ul {
+    list-style: none;
+}
+
+.navbar li {
+    float: left; 
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #004d40;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.navbar a:hover {
+    color: #00796b;
+}
+
+/*?--------- MAIN---------*/
+.hero{
+    text-align: center;
+    height: 400px;
+    line-height: 90px;
+    background-image: url(../img/fondohero.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.hero h2{
+    color: #ECEFF1;
+    font-size: 70px;
+    text-shadow:
+    -1px -1px 0 black,
+    1px -1px 0 black,
+    -1px  1px 0 black,
+    1px  1px 0 black;
+}
+
+.hero p{
+    color: black;
+    font-size: 40px;
+    font-weight: bold;
+    text-shadow:
+    -1px -1px 0 white,
+    1px -1px 0 white,
+    -1px  1px 0 white,
+    1px  1px 0 white;
+}
+
+.hero h3{
+    color: #ECEFF1;
+    font-size: 30px;
+    text-shadow:
+    -1px -1px 0 black,
+    1px -1px 0 black,
+    -1px  1px 0 black,
+    1px  1px 0 black;
+}
+
+.introduccion {
+    background-color:#e0f7fa;
+    height: 100px;
+    text-align: center;
+}
+
+.introduccion .intro {
+    background-color: #ffffff;
+    height: 50px;
+    line-height: 50px;
+    width: 33.3%;
+    float: left;
+}
+
+.introduccion .intro p{
+    text-align: center;
+}
+
+.productos {
+    width: 100%;
+    text-align: center;
+    background-color:#e0f7fa;
+    height: 300px; 
+}
+
+.prod {
+    background-color:  #8accb4;
+    width: 45%;
+    text-align: center;
+    position: relative;
+    top: 50px;
+}
+
+#prod1{
+    float: left;
+}
+
+.textoprod{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.textoprod img {
+    width: 200px;
+    height: auto;
+}
+
+#img1{
+    float: left;
+}
+
+.textoprod p {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#p1{
+    float: right;
+}
+
+#prod2{
+    float: right;
+}
+
+#img2{
+    float: right;
+}
+
+#p2{
+    float: left;
+}
+
+.contacto {
+    width: 100%;
+    text-align: center;
+    background-color:#e0f7fa;
+}
+
+.contacto h2{
+    color: #ECEFF1;
+    font-size: 30px;
+    text-shadow:
+    -1px -1px 0 black,
+    1px -1px 0 black,
+    -1px  1px 0 black,
+    1px  1px 0 black;
+}
+
+.contacto div button{
+    text-transform: uppercase;
+    background-color:  #8accb4;
+    width: 400px;
+    height: 50px;
+    font-weight: bold;
+}
+
+/**--------FOOTER------------*/
+footer{
+    width: 100%;
+    height: 150px;
+    background-color: #e0f7fa ;
+}
+
+.redes{
+    text-align: center;
+}
+
+.redes a img{
+    width: 30px;
+    height: 30px;
+}
+
+footer p{
+    text-align: center;
+    font-size: small;
+}
