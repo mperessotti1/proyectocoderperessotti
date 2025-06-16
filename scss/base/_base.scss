@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;...&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+// Variables
+$font-primary: 'Roboto', sans-serif;
+$color-header-bg: #e0f7fa;
+$color-header-shadow: #004d40;
+$color-link: #004d40;
+$color-link-hover: #00796b;
+
+// RESET
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    font-family: $font-primary;
+}

@@ -1,0 +1,40 @@
+.header {
+    background-color: $color-header-bg;
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    z-index: 1;
+    box-shadow: 0 2px 4px $color-header-shadow;
+
+    .logo {
+        img {
+            margin-left: 90px;
+        }
+    }
+
+    .navbar {
+        ul {
+            display: flex;
+            list-style: none;
+        }
+
+        li {
+            margin: 0 40px;
+        }
+
+        a {
+            text-decoration: none;
+            color: $color-link;
+            font-weight: 500;
+            font-size: 30px;
+            transition: color .3s ease;
+
+            &:hover {
+                color: $color-link-hover;
+            }
+        }
+    }
+}
