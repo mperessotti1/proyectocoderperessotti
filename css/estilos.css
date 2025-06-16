@@ -457,23 +457,26 @@ footer p {
   .productos .prod {
     width: 70%;
     height: 400px;
+    padding: 20px;
   }
-  .productos .prod .textoprod {
+  .productos .textoprod {
     flex-direction: column;
     align-items: center;
     text-align: center;
     gap: 10px;
   }
-  .productos .prod .textoprod img {
+  .productos .textoprod img {
+    width: 100%;
     max-width: 300px;
+    height: auto;
   }
-  .productos .prod .textoprod p {
+  .productos .textoprod p {
     font-size: 16px;
   }
-  .productos .prod .textoprod h3 {
+  .productos .textoprod h3 {
     text-align: center;
   }
-  .grid-productos {
+  .productos-main .grid-productos {
     grid-template-columns: repeat(2, 45%);
   }
 }
@@ -484,14 +487,15 @@ footer p {
   .hero h3 {
     font-size: 1.5rem;
   }
-  .introduccion,
-  .productos {
+  .introduccion {
     flex-direction: column;
   }
   .introduccion .intro {
     height: 100px;
-    margin: 0 5px;
+    margin-left: 5px;
+    margin-right: 5px;
     max-width: 90%;
+    height: auto;
   }
   .contenido-nosotros {
     flex-direction: column;
@@ -500,28 +504,36 @@ footer p {
   .img-nosotros {
     max-width: 100%;
   }
+  .productos {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    gap: 20px;
+    padding: 20px;
+  }
   .productos .prod {
     width: 90%;
     height: auto;
     padding: 20px;
   }
-  .productos .prod .textoprod {
+  .productos .textoprod {
     flex-direction: column;
     align-items: center;
     text-align: center;
     gap: 10px;
   }
-  .productos .prod .textoprod img {
+  .productos .textoprod img {
+    width: 100%;
     max-width: 300px;
+    height: auto;
   }
-  .productos .prod .textoprod p {
+  .productos .textoprod p {
     font-size: 16px;
   }
-  .productos .grid-productos {
+  .productos-main .grid-productos {
     grid-template-columns: repeat(1, 100%);
   }
-  .formulario-contacto input,
-  .formulario-contacto select {
+  .contacto-main .container-contacto .formulario-contacto input, .contacto-main .container-contacto .formulario-contacto select {
     width: 300px;
   }
 }
@@ -554,44 +566,51 @@ footer p {
   .hero h3 {
     font-size: 1.5rem;
   }
-  .introduccion,
-  .productos {
+  .introduccion {
     flex-direction: column;
   }
   .introduccion .intro {
     height: 100px;
-    margin: 0 5px;
+    margin-left: 5px;
+    margin-right: 5px;
     max-width: 90%;
+    height: auto;
+  }
+  .productos {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    gap: 20px;
+    padding: 20px;
   }
   .productos .prod {
     width: 90%;
     height: auto;
     padding: 20px;
   }
-  .productos .prod .textoprod {
+  .productos .textoprod {
     flex-direction: column;
     align-items: center;
     text-align: center;
     gap: 10px;
   }
-  .productos .prod .textoprod img {
+  .productos .textoprod img {
+    width: 100%;
     max-width: 300px;
+    height: auto;
   }
-  .productos .prod .textoprod p {
+  .productos .textoprod p {
     font-size: 16px;
-  }
-  .productos .grid-productos {
-    grid-template-columns: repeat(1, 100%);
   }
   .accordion-body {
     font-size: 0.95rem;
     padding: 1.2rem;
   }
-  .accordion-button {
-    font-size: 1rem;
-  }
   .accordion-body h5 {
     font-size: 1.1rem;
+  }
+  .accordion-button {
+    font-size: 1rem;
   }
   .contacto {
     padding: 30px 15px;
