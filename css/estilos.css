@@ -56,7 +56,8 @@ body {
   text-align: center;
   padding: 80px 20px;
 }
-.hero h2, .hero h3 {
+.hero h2,
+.hero h3 {
   color: #ECEFF1;
   text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
 }
@@ -235,6 +236,10 @@ body {
   border-radius: 8px;
   margin-bottom: 15px;
 }
+.productos-main .grid-productos .grid-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
 .productos-main .grid-productos .grid-item h3 {
   font-size: 1.2rem;
   color: #004d40;
@@ -377,7 +382,8 @@ body {
   font-weight: bold;
   color: #2d5c44;
 }
-.contacto-main .container-contacto .formulario-contacto input, .contacto-main .container-contacto .formulario-contacto select {
+.contacto-main .container-contacto .formulario-contacto input,
+.contacto-main .container-contacto .formulario-contacto select {
   width: 500px;
   padding: 10px;
   border: 1px solid #b7d6c4;

@@ -13,7 +13,8 @@
     text-align: center;
     padding: 80px 20px;
 
-    h2, h3 {
+    h2,
+    h3 {
         color: #ECEFF1;
         text-shadow:
             -1px -1px 0 black,
@@ -228,6 +229,11 @@
                 margin-bottom: 15px;
             }
 
+            &:hover {
+                transform: translateY(-5px);
+                box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+            }
+
             h3 {
                 font-size: 1.2rem;
                 color: $color-header-shadow;
@@ -397,7 +403,8 @@
                     color: #2d5c44;
                 }
 
-                input, select {
+                input,
+                select {
                     width: 500px;
                     padding: 10px;
                     border: 1px solid #b7d6c4;
