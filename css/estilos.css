@@ -261,6 +261,19 @@ body {
   color: white;
 }
 
+.recetas-intro {
+  padding: 40px 20px;
+  background-color: #e0f7fa;
+  font-family: "Roboto", sans-serif;
+}
+.recetas-intro .textorecetas {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #004d40;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+}
+
 .recetas {
   background-color: #f3fef3;
   padding: 40px 0;
@@ -270,17 +283,6 @@ body {
   padding: 2rem;
   border-radius: 20px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-}
-.recetas .recetas-intro {
-  padding: 40px 20px;
-  background-color: #e0f7fa;
-  font-family: "Roboto", sans-serif;
-}
-.recetas .recetas-intro h3 {
-  font-size: 1.8rem;
-  font-weight: 700;
-  color: #004d40;
-  text-align: center;
 }
 .recetas .accordion-item {
   background-color: #f5fff7;

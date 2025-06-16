@@ -261,6 +261,20 @@
 }
 
 // RECETAS
+    .recetas-intro {
+        padding: 40px 20px;
+        background-color: $color-header-bg;
+        font-family: $font-primary;
+
+        .textorecetas {
+            font-size: 1.8rem;
+            font-weight: 700;
+            color: $color-header-shadow;
+            text-align: center;
+            font-family: $font-primary;
+        }
+    }
+
 .recetas {
     background-color: #f3fef3;
     padding: 40px 0;
@@ -270,19 +284,6 @@
         padding: 2rem;
         border-radius: 20px;
         box-shadow: 0 4px 10px rgba(0, 0, 0, .1);
-    }
-
-    .recetas-intro {
-        padding: 40px 20px;
-        background-color: $color-header-bg;
-        font-family: $font-primary;
-
-        h3 {
-            font-size: 1.8rem;
-            font-weight: 700;
-            color: $color-header-shadow;
-            text-align: center;
-        }
     }
 
     .accordion-item {
